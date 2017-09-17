@@ -1,0 +1,232 @@
+/*GENERAL STYLING*/
+* {
+	box-sizing: border-box;
+}
+p {
+	line-height: 1.5;
+}
+h1 {
+	width: 280px;
+	height: 60px;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', 'Times', "Times New Roman", serif;
+	padding: 14px;
+	font-size: xx-large;
+	font-weight: bold;
+	position: relative;
+	left: 100px;
+	margin: 0;
+}
+h2 {
+	font-family: 'Georgia', "Times", "Times New Roman", serif;
+	font-size: x-large;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+header {
+	position: relative;
+	top: 0;
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+}
+a {
+	text-decoration: none;
+	color: #777777;
+	margin: 5px;
+}
+.page-links {
+	position: absolute;
+	bottom: 20px;
+	right: 100px;
+}
+.nav-item-box {
+	display: inline-block;	
+	width: 100px;
+	text-align: center;
+}
+.nav-1, .nav-2 {
+	border-right: 1.5px solid #eee;
+}
+body {
+	background-image: url("../images/topography.png");
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	display: flex;
+	flex-direction: column;
+*/} 
+.content {
+	flex: 1 0 auto;
+}
+.container {
+	float: left;
+	width: 55%;
+	padding: 25px;
+	margin: 50px 100px;
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	line-height: 1.5;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+footer {
+  	height: 50px;
+  	width: 100%;
+	padding: 20px;
+	color: #eee;
+	margin: auto;
+	text-align: center;
+	background-color: #666666;
+	border-top: 6px solid #4aaaa5;
+	position: relative;
+}
+
+
+/*CONNECT W ME Styling*/
+.social-media-box {
+	float: left;
+	width: 28%;
+	padding: 25px;
+	margin: 50px 0;
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+}
+
+.social-media-icon {
+	width: 50px;
+	height: auto;
+	display: inline-block;
+}
+
+
+/*INDEX STYLING*/
+#bio-image {
+	float: left;
+	width: 220px;
+	height: auto;
+	margin-right: 30px;
+}
+#bio {
+/*	float: left;
+*/}
+
+/*PORTFOLIO STYLING*/
+.portfolio-img {
+	width: 220px;
+	height: auto;
+	position: relative;
+}
+.portfolio-thumb-container {
+	width: 220px;
+	display: inline-block;
+	margin: 25px;
+	position: relative;
+}
+.thumb-title {
+	font-family: 'Georgia', 'Times', "Times New Roman", serif;
+	z-index: 999;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	background: #4aaaa5;
+	color: #ffffff;
+	bottom: 30px;
+	padding: 5px;
+}
+
+/*CONTACT ME STYLING*/
+.submit-button {
+    background-color: #4aaaa5; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+textarea {
+	width: 100%;
+}
+
+/*RESPONSIVE STYLING*/
+
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+	body {
+		background-image: none;
+		background-color: blue;
+	}
+	#bio {
+		float: left;
+	}
+	#bio-image {
+		margin-bottom: 10px
+	}
+	.container {
+		width: 50%;
+	}
+	.social-media-box {
+		width: 20%;
+	}
+}
+@media screen and (max-width: 768px) and (min-width: 641px) {
+	
+	body {
+		background-image: none;
+		background-color: orange;
+	}
+	h1 {
+		left: 20px;
+	}
+	.page-links {
+		right: 20px;
+	}
+	.container {
+		width: 90%;
+		margin: 20px;
+	}
+	.social-media-box {
+		width: 90%;
+		margin: 20px;
+	}
+	#bio {
+		float: none;
+	}
+}
+@media screen and (max-width: 640px) {
+	body {
+		background-image: none;
+		background-color: yellow;
+	}
+	header {
+		position: static;
+	}
+	h1 {
+		width: 100%;
+		left: 0px;
+		text-align: center;
+	}
+	.page-links {
+		width: 100%;
+		position: relative;
+		left: 0;
+		top:0;
+/*		margin: 15px;
+*/	}
+	.container {
+		width: 90%;
+		margin: 20px;
+	}
+	.social-media-box {
+		width: 90%;
+		margin: 20px;
+	}
+	.nav-item-box {
+		width: 28%;
+		margin: 10px;
+	}
+}
+
