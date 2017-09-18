@@ -155,10 +155,7 @@ textarea {
 
 
 @media screen and (max-width: 980px) and (min-width: 769px) {
-	body {
-		background-image: none;
-		background-color: blue;
-	}
+
 	#bio {
 		float: left;
 	}
@@ -173,11 +170,7 @@ textarea {
 	}
 }
 @media screen and (max-width: 768px) and (min-width: 641px) {
-	
-	body {
-		background-image: none;
-		background-color: orange;
-	}
+
 	h1 {
 		left: 20px;
 	}
@@ -197,10 +190,7 @@ textarea {
 	}
 }
 @media screen and (max-width: 640px) {
-	body {
-		background-image: none;
-		background-color: yellow;
-	}
+	
 	header {
 		position: static;
 	}
